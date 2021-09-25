@@ -23,7 +23,9 @@
                             <div class="row">
                                 <!-- cart images div -->
                                 <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
-                                    <img src="https://www.asus.com/us/site/gaming/assets/images/rog/Flow-X13/kv-4.png" class="img-fluid" alt="cart img">
+                                   
+                                    <img src="https://www.asus.com/us/site/gaming/assets/images/rog/Flow-X13/kv-4.png" class="img-fluid" alt="cart img" onclick="alert1()">
+                                    
                                 </div>
 
                                 <!-- cart product details -->
@@ -62,16 +64,17 @@
                             </div>
                         </div>
                         <hr />
+
+
+                        
                         <!-- 2nd cart product -->
                         <div class="card p-4">
                             <div class="row">
                                 <!-- cart images div -->
                                 <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
                                     <img src="https://www.lenovo.com/medias/Legion5-15-AMD-88GMY501444-725x515.png?context=bWFzdGVyfHJvb3R8MjI5NDI2fGltYWdlL3BuZ3xoMDUvaDZiLzExNjQ5NjIxMjk1MTM0LnBuZ3wzMjNjNjdhNWYyYjFmMGRmMGY4MzIxZDhlYTM0ZjNkZjhjYjc4ZGY2MzdmMmYwZmRkOTAyYWUzZTZkYTU2ZmMw" class="img-fluid"
-                                        alt="cart img">
+                                        alt="cart img" onclick="alert2()">
                                 </div>
-
-
 
                                 <!-- cart product details -->
                                 <div class="col-md-7 col-11 mx-auto px-4 mt-2">
@@ -135,9 +138,28 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script>
+//         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+// var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+//   return new bootstrap.Popover(popoverTriggerEl)
+// })
+
+// var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+//   trigger: 'focus'
+// })
+function alert1() {
+    alert("ASUS ROG Flow X13 Ryzen 9 Octa Core 5900HS - (16 GB/1 TB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/60 Hz) GV301QH-K5462TS 2 in 1 Gaming Laptop  (13.4 inch, Off Black, 1.30 kg, With MS Office)");
+}
+
+function alert2() {
+    alert("Lenovo Legion 5 AMD Ryzen 7 4800H 15.6(39.62cms) Full HD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/120 Hz/NVIDIA GTX 1650Ti 4GB GDDR6 Graphics/Phantom Black/2.3Kg), 82B500BMIN");
+}
+    </script>
+
 </body>
 
 </html>
