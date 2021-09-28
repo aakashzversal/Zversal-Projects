@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Shopping Cart</title>
 </head>
@@ -22,32 +25,38 @@
                             <h2 class="py-4 font-weight-bold">Cart (2 items)</h2>
                             <div class="row">
                                 <!-- cart images div -->
-                                <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
-                                    <button type="button"  data-toggle="modal" data-target="#exampleModal">
-                                        <img src="https://www.asus.com/us/site/gaming/assets/images/rog/Flow-X13/kv-4.png" class="img-fluid" alt="cart img">
+                                <div
+                                    class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
+                                    <button type="button" data-toggle="modal" data-target="#exampleModal">
+                                        <img src="https://www.asus.com/us/site/gaming/assets/images/rog/Flow-X13/kv-4.png"
+                                            class="img-fluid" alt="cart img">
                                     </button>
-                                    
+
                                 </div>
 
 
                                 <!-- modal -->
 
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Asus Rog Flow X13</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                ASUS ROG Flow X13 Ryzen 9 Octa Core 5900HS - (16 GB/1 TB SSD/Windows 10
+                                                Home/4 GB Graphics/NVIDIA GeForce GTX 1650/60 Hz) GV301QH-K5462TS 2 in 1
+                                                Gaming Laptop (13.4 inch, Off Black, 1.30 kg, With MS Office)
+                                            </div>
+
                                         </div>
-                                        <div class="modal-body">
-                                          ...
-                                        </div>
-                                        
-                                      </div>
                                     </div>
-                                  </div>
+                                </div>
 
                                 <!-- cart product details -->
                                 <div class="col-md-7 col-11 mx-auto px-4 mt-2">
@@ -62,13 +71,16 @@
                                         <div class="col-6">
                                             <ul class="pagination justify-content-end set_quantity">
                                                 <li class="page-item">
-                                                    <button class="page-link " onclick="decreaseNumber('textbox','itemval')">
+                                                    <button class="page-link "
+                                                        onclick="decreaseNumber('textbox','itemval')">
                                                         <i class="fas fa-minus"></i> </button>
                                                 </li>
-                                                <li class="page-item"><input type="text" name="" class="page-link" value="0" id="textbox">
+                                                <li class="page-item"><input type="text" name="" class="page-link"
+                                                        value="0" id="textbox">
                                                 </li>
                                                 <li class="page-item">
-                                                    <button class="page-link" onclick="increaseNumber('textbox','itemval')"> <i
+                                                    <button class="page-link"
+                                                        onclick="increaseNumber('textbox','itemval')"> <i
                                                             class="fas fa-plus"></i></button>
                                                 </li>
                                             </ul>
@@ -87,18 +99,42 @@
                         <hr />
 
 
-                        
+
                         <!-- 2nd cart product -->
                         <div class="card p-4">
                             <div class="row">
                                 <!-- cart images div -->
-                                <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
-                                        <img src="https://www.lenovo.com/medias/Legion5-15-AMD-88GMY501444-725x515.png?context=bWFzdGVyfHJvb3R8MjI5NDI2fGltYWdlL3BuZ3xoMDUvaDZiLzExNjQ5NjIxMjk1MTM0LnBuZ3wzMjNjNjdhNWYyYjFmMGRmMGY4MzIxZDhlYTM0ZjNkZjhjYjc4ZGY2MzdmMmYwZmRkOTAyYWUzZTZkYTU2ZmMw" class="img-fluid"
-                                        alt="cart img" >
-                                    
+                                <div
+                                    class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
+                                    <button type="button" data-toggle="modal" data-target="#exampleModal2">
+                                        <img src="https://www.lenovo.com/medias/Legion5-15-AMD-88GMY501444-725x515.png?context=bWFzdGVyfHJvb3R8MjI5NDI2fGltYWdlL3BuZ3xoMDUvaDZiLzExNjQ5NjIxMjk1MTM0LnBuZ3wzMjNjNjdhNWYyYjFmMGRmMGY4MzIxZDhlYTM0ZjNkZjhjYjc4ZGY2MzdmMmYwZmRkOTAyYWUzZTZkYTU2ZmMw"
+                                            class="img-fluid" alt="cart img">
+                                    </button>
+
                                 </div>
 
-                                
+                                <!-- modal -->
+
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel2">Lenovo Legion 5</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lenovo Legion 5 Pro AMD Ryzen 7 5800H 16"(40.64cm) QHD IPS 500Nits
+                                                Gaming Laptop(16GB/1TB SSD/Win10/Office/RTX 3060 6GB,max TGP
+                                                130W/165Hz/3 Yr Warranty/Grey/2.45Kg), 82JQ0062IN +Xbox Game Pass for PC
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <!-- cart product details -->
                                 <div class="col-md-7 col-11 mx-auto px-4 mt-2">
@@ -113,13 +149,16 @@
                                         <div class="col-6">
                                             <ul class="pagination justify-content-end set_quantity">
                                                 <li class="page-item">
-                                                    <button class="page-link " onclick="decreaseNumber('textbox1','itemval1')"> <i
+                                                    <button class="page-link "
+                                                        onclick="decreaseNumber('textbox1','itemval1')"> <i
                                                             class="fas fa-minus"></i> </button>
                                                 </li>
-                                                <li class="page-item"><input type="text" name="" class="page-link" value="0" id="textbox1">
+                                                <li class="page-item"><input type="text" name="" class="page-link"
+                                                        value="0" id="textbox1">
                                                 </li>
                                                 <li class="page-item">
-                                                    <button class="page-link" onclick="increaseNumber('textbox1','itemval1')"> <i
+                                                    <button class="page-link"
+                                                        onclick="increaseNumber('textbox1','itemval1')"> <i
                                                             class="fas fa-plus"></i></button>
                                                 </li>
                                             </ul>
@@ -162,26 +201,31 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
     <script src="index.js"></script>
     <script>
-//         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-// var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-//   return new bootstrap.Popover(popoverTriggerEl)
-// })
+        //         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        // var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        //   return new bootstrap.Popover(popoverTriggerEl)
+        // })
 
-// var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
-//   trigger: 'focus'
-// })
-function alert1() {
-    alert("ASUS ROG Flow X13 Ryzen 9 Octa Core 5900HS - (16 GB/1 TB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/60 Hz) GV301QH-K5462TS 2 in 1 Gaming Laptop  (13.4 inch, Off Black, 1.30 kg, With MS Office)");
-}
+        // var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+        //   trigger: 'focus'
+        // })
+        function alert1() {
+            alert("ASUS ROG Flow X13 Ryzen 9 Octa Core 5900HS - (16 GB/1 TB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/60 Hz) GV301QH-K5462TS 2 in 1 Gaming Laptop  (13.4 inch, Off Black, 1.30 kg, With MS Office)");
+        }
 
-function alert2() {
-    alert("Lenovo Legion 5 AMD Ryzen 7 4800H 15.6(39.62cms) Full HD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/120 Hz/NVIDIA GTX 1650Ti 4GB GDDR6 Graphics/Phantom Black/2.3Kg), 82B500BMIN");
-}
+        function alert2() {
+            alert("Lenovo Legion 5 AMD Ryzen 7 4800H 15.6(39.62cms) Full HD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/120 Hz/NVIDIA GTX 1650Ti 4GB GDDR6 Graphics/Phantom Black/2.3Kg), 82B500BMIN");
+        }
     </script>
 
 </body>
